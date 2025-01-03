@@ -36,6 +36,8 @@ public class YBotMovement : MonoBehaviour
     void Update()
     {
         HandleMovement();
+
+        HandleRotation();
     }
 
     private void HandleRotation()
